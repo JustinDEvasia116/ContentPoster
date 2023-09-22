@@ -1,0 +1,74 @@
+/* AdminDashboard.css */
+
+/* Common styles for all screen sizes */
+.admin-container {
+  max-width: 50rem; /* 800px in rem units */
+  margin: 0 auto;
+  padding: 1.25rem; /* 20px in rem units */
+  background-color: #f9f9f9;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem; /* 8px in rem units */
+}
+
+h2 {
+  font-size: 1.5rem; /* 24px in rem units */
+  margin-bottom: 1.25rem; /* 20px in rem units */
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  margin-bottom: 1rem; /* 16px in rem units */
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+textarea,
+input[type="file"] {
+  padding: 0.75rem; /* 12px in rem units */
+  border: 1px solid #ddd;
+  border-radius: 0.25rem; /* 4px in rem units */
+  font-size: 1rem; /* 16px in rem units */
+}
+
+.submit-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.25rem; /* 12px 20px in rem units */
+  border-radius: 0.25rem; /* 4px in rem units */
+  font-size: 1.125rem; /* 18px in rem units */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056B3;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 0.5rem; /* 8px in rem units */
+  display: block;
+}
+
+/* Media query for screens smaller */
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 1rem; 
+  }
+
+  h2 {
+    font-size: 1.25rem; 
+  }
+
+
+}
